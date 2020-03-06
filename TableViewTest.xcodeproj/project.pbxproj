@@ -16,7 +16,7 @@
 		3C5F06B723E9E36E00D18B56 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F06B623E9E36E00D18B56 /* TableViewController.swift */; };
 		3C5F06BA23E9E36E00D18B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F06B823E9E36E00D18B56 /* Main.storyboard */; };
 		3C5F06BC23E9E37100D18B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F06BB23E9E37100D18B56 /* Assets.xcassets */; };
-		3C5F06C723E9E98200D18B56 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F06C623E9E98200D18B56 /* UserTableViewCell.swift */; };
+		3C5F06C723E9E98200D18B56 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F06C623E9E98200D18B56 /* GameTableViewCell.swift */; };
 		3C8E95F523EB363E004E9C08 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E95F423EB363E004E9C08 /* APIService.swift */; };
 		C54D77D5DCEA224994E268BA /* Pods_TableViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795D059380ABF5B26EAD9776 /* Pods_TableViewTest.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		3C5F06B923E9E36E00D18B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C5F06BB23E9E37100D18B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5F06C023E9E37100D18B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C5F06C623E9E98200D18B56 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3C5F06C623E9E98200D18B56 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		3C8E95F423EB363E004E9C08 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		795D059380ABF5B26EAD9776 /* Pods_TableViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA83C5929D46621460CA415 /* Pods-TableViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest.release.xcconfig"; path = "Target Support Files/Pods-TableViewTest/Pods-TableViewTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				3C5F06B623E9E36E00D18B56 /* TableViewController.swift */,
 				3C4082DC23F320CD00915EBE /* DetailViewController.swift */,
 				3C8E95F423EB363E004E9C08 /* APIService.swift */,
-				3C5F06C623E9E98200D18B56 /* UserTableViewCell.swift */,
+				3C5F06C623E9E98200D18B56 /* GameTableViewCell.swift */,
 				3C5F06B823E9E36E00D18B56 /* Main.storyboard */,
 				3C5F06BB23E9E37100D18B56 /* Assets.xcassets */,
 				3C5F06C023E9E37100D18B56 /* Info.plist */,
@@ -223,7 +223,7 @@
 			files = (
 				3C5F06B723E9E36E00D18B56 /* TableViewController.swift in Sources */,
 				3C8E95F523EB363E004E9C08 /* APIService.swift in Sources */,
-				3C5F06C723E9E98200D18B56 /* UserTableViewCell.swift in Sources */,
+				3C5F06C723E9E98200D18B56 /* GameTableViewCell.swift in Sources */,
 				3C5F06B323E9E36E00D18B56 /* AppDelegate.swift in Sources */,
 				3C5F06B523E9E36E00D18B56 /* SceneDelegate.swift in Sources */,
 				3C4082DD23F320CD00915EBE /* DetailViewController.swift in Sources */,

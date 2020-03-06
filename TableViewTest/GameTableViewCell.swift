@@ -9,7 +9,7 @@
 import UIKit
 import SDWebImage
 
-class UserTableViewCell: UITableViewCell {
+class GameTableViewCell: UITableViewCell {
     
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
