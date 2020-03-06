@@ -5,8 +5,12 @@ A video games app on IOS using Swift. The app access video games data from RAWG 
 
 # How to run :
 
-` sudo gem install cocoapods `
-` cd Video-games-database-App `
-` pod install `
+``` 
+sudo gem install cocoapods 
 
-Then open the TableViewTest.xcworkspace and run the app in xcode
+cd Video-games-database-App 
+ 
+pod install 
+ ```
+
+Then open the **TableViewTest.xcworkspace** and run the app in xcode
