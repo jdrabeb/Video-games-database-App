@@ -9,12 +9,12 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    
+
     var game: Game?
     var gameDetail : GameDetail?
     var gameWebsite: String?
     let apiService = APIService()
-    
+
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var releasedLabel: UILabel!
     @IBOutlet weak var metacriticLabel: UILabel!
@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var ratingsLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let game = game else {
@@ -52,22 +52,13 @@ class DetailViewController: UIViewController {
                 self.gameWebsite = gameDetail.website
             }
         })
-       // populateInfo()
     }
 
     @IBAction func WebLink(sender: AnyObject) {
-        print("click")
         guard let gameWebsite = gameWebsite else {
             return
         }
         let url = NSURL(string: gameWebsite)! as URL
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
-
-    
-    func populateInfo() {
-        
-    }
-    
-    
 }
